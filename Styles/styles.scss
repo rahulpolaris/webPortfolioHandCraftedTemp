@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    
+
+}
+.super-container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.dimention-box-on{
+    background-color: rgba(6, 1, 18, 0.661);
+    color:yellow;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.test-color{
+    color:rgba(81, 0, 255, 0.113);
+}
+.visible{
+    visibility: visible;
+}
+.minimize{
+    transform-origin: center top;
+    transform: scaleY(0)
+}
+.maximize{
+    transform-origin: center top;
+    transform: scaleY(1)
+}
+@import './navigation';
+@import './about.scss';
+@import './whatwedo.scss';
+@import './ourWork.scss'
+
+
+
